@@ -521,7 +521,7 @@ function OwnerView({ plans, setPlans, products, setProducts, sales, receipts, cl
   return (
     <div style={{ minHeight:"100vh", background:"#0d0d1a", fontFamily:"sans-serif", color:"#fff" }}>
       <header style={hdr}>
-        <div style={{ fontSize:18, fontWeight:700 }}>💪 GymPro — <span style={{ color:"#f0b429" }}>Panel del Dueño</span></div>
+        <div style={{ fontSize:18, fontWeight:700 }}>💪 GymPro — <span style={{ color:"#f0b429" }}>Panel del Administrador</span></div>
         <button style={logBtn} onClick={onLogout}>Salir</button>
       </header>
       <div style={{ display:"flex", background:"#0f0f20", borderBottom:"1px solid #1e1e3a", padding:"0 20px", overflowX:"auto" }}>
