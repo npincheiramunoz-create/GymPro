@@ -122,8 +122,8 @@ function LoginScreen({ onSeller, onOwner, pin, setPin, pinError }) {
         </div>
         {!mode && (
           <div style={{ display:"flex", flexDirection:"column", gap:12 }}>
-            <button style={{ ...rBtn, background:"#1a1a2e" }} onClick={() => setMode("seller")}><span style={{ fontSize:24 }}>🧾</span><span>Soy Vendedor / Recepción</span></button>
-            <button style={{ ...rBtn, background:"#16213e" }} onClick={() => setMode("owner")}><span style={{ fontSize:24 }}>👑</span><span>Soy Dueño</span></button>
+            <button style={{ ...rBtn, background:"#1a1a2e" }} onClick={() => setMode("seller")}><span style={{ fontSize:24 }}>🧾</span><span>  Recepción</span></button>
+            <button style={{ ...rBtn, background:"#16213e" }} onClick={() => setMode("owner")}><span style={{ fontSize:24 }}>👑</span><span>Administrador</span></button>
           </div>
         )}
         {mode === "seller" && (
